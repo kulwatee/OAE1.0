@@ -1,0 +1,28 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+    height: 100vh;
+    display: flex;
+    background-image: url(https://img.freepik.com/premium-photo/world-map-made-glowing-blue-dots-with-neon-effect_105589-312.jpg?w=900);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.long{
+    display: flex;
+    justify-content:center ;
+    padding-top: 0.5rem;
+
+}
+.lond{
+    display: flex;
+    justify-content:center ;
+    padding-top: 0.5rem;
+
+}
+.but{
+    color: rgb(251 146 60 / var(--tw-text-opacity));
+    font-size: 0.75rem;
+    line-height: 1rem
+}

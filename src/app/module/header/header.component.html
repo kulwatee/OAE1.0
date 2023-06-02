@@ -1,0 +1,47 @@
+<head>
+    <link href="/dist/output.scss">
+ 
+</head>
+
+<body>
+    <nav class="bg-blue-800 h-[50px] w-full ">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-4">
+
+                    <button class="fixed left-3 mt-1 " (click)="SideNavToggle()">
+                        <i class="fa-solid fa-bars mt-2 icon-large color" ></i>
+                    </button>
+                    
+
+                    <img src="assets\Logo.png" alt="logo" class="w-10 h-10 mt-2 ">
+                    <div>
+                        <span class=" text-white text-sm ">สำนักงานเศรษฐกิจการเกษตร</span>
+                        <div>
+                            <span class="text-white text-xs">Office of Agricultural Economics</span>
+                        </div>
+                    </div>
+                    <div class="w-0.5 bg-white h-10 mt-1"></div>
+                    <div class="mt-3">
+                        <span class="text-white text-base ">ระบบบริหารจัดการข้อมูลทางสังคม</span>
+                    </div>
+                </div>
+
+                <div class="flex items-center ">
+                    <div class="mr-2">
+                        <img src="assets\user.png" alt="user" class="rounded-full w-8 h-8 mt-2">
+                    </div>
+                    <span class="text-white text-xs mt-1">Student</span>
+                    <span class="text-orange-300 font-bold text-xs mt-1 pl-3 ">ใช้ไป 0/5 ></span>  
+                    <div class="ml-4 mt-2">
+                    <button routerLink="/login">
+                         <i class="fa-solid fa-right-from-bracket icon"></i>
+                    </button>
+                   
+                </div>
+                </div>
+               
+            </div>
+        </div>
+    </nav>
+</body>
